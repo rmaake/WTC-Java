@@ -1,0 +1,40 @@
+MsgType
+Tag     Value   Meaning
+35       D      means new order single
+35       8      means execution report
+35       3      means a session reject
+
+Status
+Tag     Value   Meaning
+39        0     means new order acknolodged
+39        8     means order is rejected
+39        1     means patial execution
+39        2     means complete execution
+
+Side
+Tag     Value   Meaning
+54        1     Buy
+54        2     Sell
+
+OrderQty
+Tag     Value   Meaning
+38              means the quantity of prouduct being ordered
+
+Price
+Tag     Value   Meaning
+44              Specify price limit
+
+OrderType
+Tag     Value   Meaning
+40       1      Market
+40       2      Limit
+
+Routing
+Tag     Value   Meaning
+50              id of sender
+49              id of company
+56              id of receiver
+
+Symbol
+Tag     Value   Meaning
+55                  means value is a Symbol

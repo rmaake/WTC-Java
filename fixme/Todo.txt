@@ -1,0 +1,4 @@
+Pass message from broker to market {idea: check connection handler class}
+Pass message from market to broker
+Look into FIX protocol
+
